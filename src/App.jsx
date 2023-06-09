@@ -13,6 +13,8 @@ function App() {
     console.log(ref.current)
     toPng(ref.current)
     .then(dataUrl => {
+      setError(`${dataUrl[0]}${dataUrl[1]}${dataUrl[2]}${dataUrl[3]}${dataUrl[4]}${dataUrl[5]}`)
+      console.log(error);
       download(dataUrl, 'custom-image.png')
     })
     .catch((error) => setError(error))
@@ -23,7 +25,7 @@ function App() {
       <input type="text" className='input' onChange={(e) => setText(e.target.value)} placeholder='Escribir aqui' />
       <div className='image' ref={ref}>
         <img src={image} alt="" />
-        <p>{text}</p>
+        <p className='p'>{text}</p>
       </div>
       <button onClick={downloadImage}>Download</button>
       {

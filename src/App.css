@@ -14,8 +14,14 @@ img{
   background-color: red;
   position: relative;
 }
-
 p{
+  color: black;
+  max-width: 500px;
+  position: relative;
+  z-index: 199;
+}
+
+.p{
   position: absolute;
   top: 90%;
   left: 50%;
