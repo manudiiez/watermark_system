@@ -6,6 +6,7 @@ import image from './tiger-2160x3840-muzzle-grin-amur-portrait-934 (1).jpg'
 
 function App() {
   const [text, setText] = useState('');
+  const [error, setError] = useState(false);
   const ref = useRef(null)
 
   const downloadImage = () => {
@@ -14,7 +15,7 @@ function App() {
     .then(dataUrl => {
       download(dataUrl, 'custom-image.png')
     })
-    .catch(() => console.log('error'))
+    .catch((error) => setError(error))
   }
 
   return (
@@ -25,6 +26,11 @@ function App() {
         <p>{text}</p>
       </div>
       <button onClick={downloadImage}>Download</button>
+      {
+        error != false && (
+          <p>{error}</p>
+        )
+      }
     </div>
   );
 }
