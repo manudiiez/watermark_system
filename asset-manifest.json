@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/watermark_system/static/css/main.73fa8b98.css",
-    "main.js": "/watermark_system/static/js/main.0713c252.js",
+    "main.css": "/watermark_system/static/css/main.ea8e17c5.css",
+    "main.js": "/watermark_system/static/js/main.0f584c33.js",
     "static/media/tiger-2160x3840-muzzle-grin-amur-portrait-934 (1).jpg": "/watermark_system/static/media/tiger-2160x3840-muzzle-grin-amur-portrait-934 (1).d2a2b1e13bcd004a3e28.jpg",
     "index.html": "/watermark_system/index.html",
-    "main.73fa8b98.css.map": "/watermark_system/static/css/main.73fa8b98.css.map",
-    "main.0713c252.js.map": "/watermark_system/static/js/main.0713c252.js.map"
+    "main.ea8e17c5.css.map": "/watermark_system/static/css/main.ea8e17c5.css.map",
+    "main.0f584c33.js.map": "/watermark_system/static/js/main.0f584c33.js.map"
   },
   "entrypoints": [
-    "static/css/main.73fa8b98.css",
-    "static/js/main.0713c252.js"
+    "static/css/main.ea8e17c5.css",
+    "static/js/main.0f584c33.js"
   ]
 }
