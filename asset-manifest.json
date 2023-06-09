@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.73fa8b98.css",
+    "main.js": "/static/js/main.463beda8.js",
+    "static/media/tiger-2160x3840-muzzle-grin-amur-portrait-934 (1).jpg": "/static/media/tiger-2160x3840-muzzle-grin-amur-portrait-934 (1).d2a2b1e13bcd004a3e28.jpg",
+    "index.html": "/index.html",
+    "main.73fa8b98.css.map": "/static/css/main.73fa8b98.css.map",
+    "main.463beda8.js.map": "/static/js/main.463beda8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73fa8b98.css",
+    "static/js/main.463beda8.js"
+  ]
+}
